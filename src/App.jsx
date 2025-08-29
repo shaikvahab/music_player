@@ -1,13 +1,14 @@
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Homepage from "./Components/Homepage";
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <Routes>
-        <Route path="/" element={<Homepage />} />
+        {/* Use index route for "/" */}
+        <Route index element={<Homepage />} />
       </Routes>
-    </Router>
+    </HashRouter>
   );
 }
 
