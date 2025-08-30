@@ -8,4 +8,10 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss(),
   ],
+  css: {
+    transformer: "postcss" // disable lightningcss
+  },
+  build: {
+    outDir: "dist", // default, Vercel expects dist
+  },
 })
