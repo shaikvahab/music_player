@@ -14,7 +14,7 @@ import { motion } from "framer-motion";
 
 const collectionId = "Music_collection"; // Replace with your archive.org ID
 
-const Homepage = () => {
+const Home = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [songs, setSongs] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -150,7 +150,7 @@ const Homepage = () => {
             {/* Song Info */}
             <div className="flex items-center gap-3 text-center">
               <img
-                src="https://picsum.photos/50/50"
+                src="https://picsum.photos/70/50"
                 alt="song"
                 className="rounded-md"
               />
@@ -233,4 +233,4 @@ const Homepage = () => {
   );
 };
 
-export default Homepage;
+export default Home;

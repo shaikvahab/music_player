@@ -1,9 +1,9 @@
 {
+  "homepage": "https://shaikvahab.github.io/music_player",
   "name": "music-player",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://shaikvahab.github.io/music_player",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
