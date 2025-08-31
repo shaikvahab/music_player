@@ -14,7 +14,4 @@ export default defineConfig({
   build: {
     outDir: "dist", // default, Vercel expects dist
   },
-  future: {
-    disableTailwindOxide: true,
-  },
 })
